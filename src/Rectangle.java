@@ -2,7 +2,7 @@ public class Rectangle extends Shape
 {
     private int length;
     private int width;
-    public Rectangle(int side)
+    public Rectangle(int length,int width)
     {
         super("Rectangle");
         this.length=length;

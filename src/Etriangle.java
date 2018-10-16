@@ -5,7 +5,7 @@ public class Etriangle {
 
         public ETriangle(int side)
         {
-            super("RPentagon");
+            super("ETriangle");
             this.side = side;
         }
 
