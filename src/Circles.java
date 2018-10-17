@@ -1,6 +1,6 @@
 public class Circles extends Shape{
     private int radius;
-    public Circles(int side){
+    public Circles(int radius){
         super("Circles");
         this.radius = radius;
     }
