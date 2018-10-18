@@ -5,9 +5,11 @@ public class Runner
         Shape shape1=new Rectangle(5,10);
         Shape shape2= new Etriangle(10);
         Shape shape3= new Circles(10);
+        Shape shape4= new Itriangle(10, 15);
+        Shape shape5= new Ellipse(15,10);
 
 
-        Shape[] shapes={shape1, shape2, shape3};
+        Shape[] shapes={shape1, shape2, shape3, shape4,shape5};
         for(Shape cur :shapes)
         {
             System.out.println(cur);
