@@ -1,10 +1,21 @@
 public class Square extends Rectangle
 {
-    private int ;
+    private int side;
 
-    public Square(int )
+    public Square(int side )
     {
-        super()
+        super(side);
+        this.side=side;
+    }
+
+    public double getArea()
+    {
+        return side*side;
+    }
+
+    public double getPerimeter()
+    {
+        return side*4;
     }
 
 }
