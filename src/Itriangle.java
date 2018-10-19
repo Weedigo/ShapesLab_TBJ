@@ -8,10 +8,12 @@ public class Itriangle extends Shape {
         this.height = height;
     }
 
-    public double getArea() {
-        return (base * height) / 2;
+    public double getArea()
+    {
+        return (base * height) / 2;//the base times the height divided by 2 is the area
     }
-    public double getPerimeter() {
-        return ((Math.sqrt((base / 2) * (base / 2) + (height * height))) * 2 + base);
+    public double getPerimeter()
+    {
+        return ((Math.sqrt((base / 2) * (base / 2) + (height * height))) * 2 + base);// the base plus the two sides of the same length
     }
 }
