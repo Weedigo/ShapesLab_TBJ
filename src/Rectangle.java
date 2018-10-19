@@ -20,9 +20,9 @@ public class Rectangle extends Shape
     public double getArea()
     {
         return width*length;
-    }
+    } //width times length.
     public double getPerimeter()
     {
         return ((2*width)+(2*length));
-    }
+    } //width plus length, then multiplied by two.
 }
